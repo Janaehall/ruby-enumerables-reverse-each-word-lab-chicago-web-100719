@@ -6,5 +6,3 @@ def reverse_each_word(a)
   end
   new_str = array.join()
 end
-
-    
