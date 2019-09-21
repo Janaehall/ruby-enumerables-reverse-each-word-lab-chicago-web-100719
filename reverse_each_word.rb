@@ -1,3 +1,6 @@
+string = "Hello my name is Janae"
+
+
 def reverse_each_word(a)
   new_array = []
   array = a.split(" ")
@@ -7,3 +10,5 @@ def reverse_each_word(a)
   new_str = array.join()
   new_str
 end
+
+print reverse_each_word(string)
